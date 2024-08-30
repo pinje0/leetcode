@@ -5,9 +5,6 @@ function differenceOfSum(nums: number[]): number {
         .split("")
         .reduce((acc, curr) => acc + Number(curr), 0)
 
-    console.log(sumOfNums)
-    console.log(sumOfDigits)
-
     return sumOfNums - sumOfDigits
 }
 
