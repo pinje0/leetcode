@@ -15,6 +15,6 @@ var countNegatives = function (grid) {
     return count
 }
 
-console.log(countNegatives([ [4, 3, 2, -1], [3, 2, 1, -1], [1, 1, -1, -2], [-1, -1, -2, -3], ])) // 8 // 8
+console.log(countNegatives([ [4, 3, 2, -1], [3, 2, 1, -1], [1, 1, -1, -2], [-1, -1, -2, -3], ])) // 8
 // Output: 8
 // Explanation: There are 8 negatives number in the matrix.
