@@ -1,1 +1,39 @@
-node_modules
+# Node modules (JavaScript/TypeScript)
+node_modules/
+
+# Logs
+*.log
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Pytest cache
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+
+# Cython debug symbols
+cython_debug/
+
+# Environment files
+*.env
