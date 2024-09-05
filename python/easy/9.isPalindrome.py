@@ -1,7 +1,7 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-      left = str(x)
-      right = ""
+      left:str = str(x)
+      right:str = ""
       
       for num in range(len(left) -1, -1, -1):
         right += left[num]

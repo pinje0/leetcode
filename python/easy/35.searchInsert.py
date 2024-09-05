@@ -6,7 +6,7 @@ class Solution:
           return nums.index(target)
         else:
           nums.append(target)
-          listSorted = sorted(nums)
+          listSorted:List[int] = sorted(nums)
           return listSorted.index(target)
 
 
