@@ -2,15 +2,9 @@
 
 <!-- <br> -->
 
-<div >
-  <img src="https://leetcode.card.workers.dev/pinje0?theme=dark&font=source_code_pro& extension=activity"/>
+![LeetCode Stats](https://leetcode.card.workers.dev/pinje0?theme=dark&font=source_code_pro&extension=activity)
 
-  <!-- ![LeetCode Stats](https://leetcode.card.workers.dev/pinje0?theme=dark&font=source_code_pro&  extension=activity) -->
-
-  <!-- ![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=pinje0& theme=black) -->
-
-  <img src="https://leetcode-badge-showcase.vercel.app/api?username=pinje0&theme=black"  />
-</div>
+![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=pinje0&theme=black)
 
 ##### LeetCode is an online platform for coding interview preparation. The service provides coding and algorithmic problems intended for users to practice coding
 
