@@ -1,6 +1,9 @@
 # Node modules (JavaScript/TypeScript)
 node_modules/
 
+# Python Script
+**/note_script.py
+
 # Logs
 *.log
 
