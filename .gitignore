@@ -1,6 +1,9 @@
 # Node modules (JavaScript/TypeScript)
 node_modules/
 
+# Script
+renaming_solutions.py
+
 # Python Script
 **/note_script.py
 
