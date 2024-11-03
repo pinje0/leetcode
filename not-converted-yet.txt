@@ -1,3 +1,0 @@
-0819.mostCommonWord.js:
-- Typescript
-- Python
