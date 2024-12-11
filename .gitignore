@@ -11,7 +11,7 @@ renaming_solutions.py
 *.log
 
 # Python temp
-**/tempCodeRunnerFile
+**/tempCodeRunnerFile.py
 
 
 # Python bytecode
