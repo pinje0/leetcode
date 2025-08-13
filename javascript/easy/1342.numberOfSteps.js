@@ -1,22 +1,42 @@
+// @tracking
+//! Re-Solved Times: 2
+
 /**
  * @param {number} num
  * @return {number}
  */
-var numberOfSteps = function (num) {
-    let counter = 0
-    while (num > 0) {
-        if (num % 2 == 0) {
-            num = num / 2
-            counter++
-        } else {
-            num = num - 1
-            counter++
-        }
-    }
-    return counter
-}
 
-console.log(numberOfSteps(14)) // 6
+//* 1
+////var numberOfSteps = function (num) {
+////    let counter = 0
+////    while (num > 0) {
+////        if (num % 2 == 0) {
+////            num = num / 2
+////            counter++
+////        } else {
+////            num = num - 1
+////            counter++
+////        }
+////    }
+////    return counter
+////}
+
+//* 2
+var numberOfSteps = function (num) {
+  let step = 0;
+
+  while (num > 0) {
+    if (num % 2 == 0) {
+      num = num / 2;
+    } else {
+      num = num - 1;
+    }
+    step++;
+  }
+  return step;
+};
+
+console.log(numberOfSteps(14)); // 6
 // Output: 6
 // Explanation:
 // Step 1) 14 is even; divide by 2 and obtain 7.
@@ -26,4 +46,4 @@ console.log(numberOfSteps(14)) // 6
 // Step 5) 2 is even; divide by 2 and obtain 1.
 // Step 6) 1 is odd; subtract 1 and obtain 0.
 
-console.log(numberOfSteps(123)) // 12
+console.log(numberOfSteps(123)); // 12
