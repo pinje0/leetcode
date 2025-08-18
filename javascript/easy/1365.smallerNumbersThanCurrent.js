@@ -1,15 +1,37 @@
+// @tracking
+//! Re-Solved Times: 2
+
 /**
  * @param {number[]} nums
  * @return {number[]}
  */
+
+//* 1
+///// var smallerNumbersThanCurrent = function (nums) {
+/////   const resArr = [];
+/////
+/////   for (let i = 0; i < nums.length; i++) {
+/////     let counter = 0;
+/////     for (let j = 0; j < nums.length; j++) {
+/////       if (nums[i] > nums[j] && nums[i] != nums[j]) {
+/////         counter++;
+/////       }
+/////     }
+/////     resArr.push(counter);
+/////   }
+/////
+/////   return resArr;
+///// };
+
+//* 2
 var smallerNumbersThanCurrent = function (nums) {
   const resArr = [];
 
   for (let i = 0; i < nums.length; i++) {
     let counter = 0;
     for (let j = 0; j < nums.length; j++) {
-      if (nums[i] > nums[j] && nums[i] != nums[j]) {
-        counter++;
+      if (nums[j] < nums[i]) {
+        counter += 1;
       }
     }
     resArr.push(counter);
